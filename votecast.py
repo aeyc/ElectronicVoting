@@ -23,11 +23,11 @@ def randomBinaryGenerator(l):
     return b
 
 if __name__ == "__main__":
-    n = 6 #number of options offered to voters
+    n = 4 #number of options offered to voters
     w_u = randomBinaryGenerator(n) #upper string
     w_l = randomBinaryGenerator(n) #lower string 
-    w_u = "001011" #upper string
-    w_l = "011100" #lower string 
+    w_u = "0010" #upper string
+    w_l = "0111" #lower string 
     
     q = randomBinaryGenerator(VOTING_SESSION) #unique serial number
     
